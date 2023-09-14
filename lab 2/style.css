@@ -1,0 +1,108 @@
+body{
+    margin: auto;
+}
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+     background-color: black;
+     color: white;
+}
+a{
+    color: white;
+    font-size: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.opciones{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    background-color: grey;
+}
+li{
+    list-style: none;
+}
+
+
+.ul_nav{
+    list-style: none;
+    /* FLEX BOX */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.ul_nav, .li_nav {
+    padding-left: 0px;
+}
+
+/* quitamos el subrayado de los enlaces  */
+.pueblo{
+    text-decoration: none;
+}
+
+nav{
+    background-color: grey;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: black;
+    transition: calc(0.5s);
+}
+
+.clasif{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 20%;
+    background-color: grey;
+    transition: calc(2s);
+}
+.clasif:hover{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 20%;
+    background-color: black;
+}
+footer{
+    text-align: center;
+}
+.options{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        height: 70vh;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        max-width: 2000px;}
+main{
+    text-align: center;
+}
+.hola{
+    display: flex;
+}
